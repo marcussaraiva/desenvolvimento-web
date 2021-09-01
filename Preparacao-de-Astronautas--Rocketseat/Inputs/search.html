@@ -1,0 +1,25 @@
+<!-- Search
+    Atributos
+    - list/datalist
+    - pattern
+    - arial-label
+        Descrição de acessibilidade
+-->
+
+<!-- <datalist id="search-options">
+    <option value="windows">    Windows     </option>
+    <option value="mac">            Mac             </option>
+    <option value="linux">          Linux           </option>
+</datalist> -->
+
+<form action="">
+    <input type="search"
+    name="q"
+    pattern="[0-9]{2}"
+    title="Apenas números de 1 a 9 (#ID: xx)"
+    size="8"
+    placeholder="Search #ID"
+    aria-label="Campo de Pesquisa: Digite sua pesquisa"
+    >
+    <button>Search</button>
+</form>

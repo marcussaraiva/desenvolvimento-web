@@ -1,0 +1,28 @@
+<!-- Utilização de Form/Fieldset/Input*/Label/Button/Datalist -->
+
+<form id="form" action="">
+    <fieldset>
+        <legend>Contato</legend>
+        <label for="name">Nome:
+        <input id="name" type="text" placeholder="Nome"> <br>
+        </label>
+        <label for="city">Cidade:
+        <input id="age" type="text" placeholder="Cidade"><br>
+        </label>
+        <label for="age">Idade:
+        <input id="age" type="text" placeholder="Idade"><br>
+        </label>
+        <label for="uf">UF:
+            <input type="text" list="ufData" id="uf" placeholder="Escolha uma UF">
+        </label>
+    </fieldset>
+</form>
+<button form="form" id="btnSubmit" name="btnSubmit" value="'Valor Qualquer" type="submit">Enviar</button>
+<button form="form" id="btnReset" type="reset">Limpar</button>
+
+<datalist id="ufData" form="form">
+    <option >SP</option>
+    <option >RJ</option>
+    <option >MG</option>
+    <option >MT</option>
+</datalist>
