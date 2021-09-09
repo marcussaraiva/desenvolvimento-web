@@ -1,0 +1,16 @@
+/* 
+----------BOX-SIZING----------
+Como será calculado o tamanho total da caixa?
+por padrão é calculado pelo conteúdo e não pela borda, por isso, usa-se:
+- content-box | border-box
+*/
+
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin: 10%;
+    padding: 0 20px;
+
+    box-sizing: border-box;
+}
