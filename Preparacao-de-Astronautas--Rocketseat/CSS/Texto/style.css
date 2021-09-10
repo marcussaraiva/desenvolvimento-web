@@ -1,0 +1,15 @@
+p{
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Alumni Sans', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 32px;
+
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    line-height: 1.5;
+    text-transform: capitalize;
+    text-decoration: overline underline dotted red;
+    text-align: justify;
+    text-shadow: 1px 1px 10px green;
+}
