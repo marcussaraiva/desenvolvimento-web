@@ -1,0 +1,37 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    height: 100vh;
+    font-size: 2em;
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "main aside"
+    "footer footer";
+    grid-template-rows: 50px 1fr 50px;
+    grid-template-columns: 1fr 100px;
+}
+
+header{
+    padding: 8px;
+    grid-area: header;
+    background-color: red;
+}
+
+main{
+    padding: 8px;
+    grid-area: main;
+    background-color: green;
+}
+
+aside{
+    padding: 8px;
+    grid-area: aside;
+    background-color: blue;
+}
+
+footer{
+    padding: 8px;
+    grid-area: footer;
+    background-color: pink;
+}

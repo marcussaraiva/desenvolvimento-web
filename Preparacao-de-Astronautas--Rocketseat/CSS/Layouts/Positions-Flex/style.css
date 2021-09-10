@@ -1,0 +1,36 @@
+.box{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 8px;
+}
+
+/* .box1{
+    background-color: red;
+    position: relative;
+    left: 150px;
+}
+.box2{
+    background-color: green;
+    position: absolute;
+    top: 8px;
+}
+.box3{
+    background-color: blue;
+    position: fixed;
+} */
+
+.container{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+}
+
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: green;
+}
+.box3{
+    background-color: blue;
+}

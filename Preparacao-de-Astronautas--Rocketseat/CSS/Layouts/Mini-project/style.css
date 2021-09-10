@@ -1,0 +1,118 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #FFEAD0;
+    font-weight: bold;
+    margin: 0;
+    height: 100vh;
+    font-size: 1.2em;
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "main aside"
+    "footer footer";
+    grid-template-rows: 70px 1fr 70px;
+    grid-template-columns: 1fr 0.3fr;
+    background-color: #113537;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    grid-area: header;
+    background-color: #96616B;
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+    box-shadow: 1px 1px 2px #333;
+    align-items: center;
+}
+
+.logo{
+    width: 42px;
+    height: 42px;
+    border-radius: 10px;
+    background-color: #FFEAD0;
+    margin: 20px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li a{
+    display: block;
+    text-decoration: none;
+    margin-left: 10px;
+    color: #FFEAD0;
+}
+
+li a:hover{
+    display: block;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+main{
+    grid-area: main;
+    display: flex;
+    width: 100%;
+    height: 1fr;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+#main-div{
+    width: 50vw;
+    height: 50vh;
+    margin: 70px 100px;
+    border-radius: 20px;
+    background-color: #F76F8E;
+}
+
+ #main-p{
+    font-size: 50pt;
+    margin-top: 120px;
+    text-align: center;
+}
+
+aside{
+    grid-area: aside;
+    padding: 45px 60px;
+    display: block;
+    height: 1fr;
+}
+
+.aside-div{
+    display: flex;
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    background-color: #F76F8E;
+    margin-bottom: 15px;
+}
+
+.aside-p{
+    font-size: 15pt;
+    margin: 40px 25px 30px 35px;
+    text-align: justify;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    grid-area: footer;
+    background-color: #37505C;
+    justify-content: space-between;
+    box-shadow: 1px 1px 2px #333;
+    align-items: center;
+}
+
+.footer-a{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
