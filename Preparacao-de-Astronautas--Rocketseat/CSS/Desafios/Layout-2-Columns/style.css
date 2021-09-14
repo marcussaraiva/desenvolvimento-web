@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    gap: 1rem;
+    width: 100vw;
+    height: 100vh;
+    padding: 50px;
+}
+
+section div:nth-child(1){
+    background-color: lightcoral;
+    height: 100%;
+    flex-basis: 25%;
+}
+
+section div:nth-child(2){
+    background-color: lightgreen;
+    height: 100%;
+    flex: 1;
+}
+

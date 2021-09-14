@@ -1,0 +1,31 @@
+/*
+ *  atura do footer 8rem
+ *  Footer no final
+ *  alinhar elemento do footer ao meio
+ */
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-size: 15pt;
+    background-color: #121212;
+    color: #FFFAFA;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: flex-end; */
+    /* align-items: flex-end; */
+}
+
+footer{
+    background-color: #262730;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8rem;
+    width: 100%;
+    margin-top: auto;
+}
